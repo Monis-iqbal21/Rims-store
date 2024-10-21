@@ -1,0 +1,47 @@
+.login-main-container{
+    background: url("../../images/pexels3.jpg") no-repeat center ;
+    background-size: 100% auto;
+    min-height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+
+}
+
+.login-main-form-div{
+    width: 22%;
+    margin: 0 auto;
+    height: 350px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    
+}
+
+.login-input{
+    width: 80%;
+    background-color: transparent ;
+    height: 30px;
+    color: rgb(69, 69, 124);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 0 0 0 10px;
+    backdrop-filter: blur(10px);
+
+}
+
+.button-login{
+    width: 80%;
+    background-color: rgb(49 53 111);
+    margin: 20px 0px;
+    height: 35px;
+    font-size: large;
+    border-radius:10px ;
+    color: white;
+    border: none;
+    
+}
+

@@ -1,0 +1,77 @@
+:root {
+    --primaryColor: rgb(58, 58, 172);
+    --secondaryColor: rgb(253, 253, 253);
+}
+
+body {
+    background-color: #18191d;
+}
+
+.main-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 0px 10%;
+    height: 70px;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0 0 0px 0;
+}
+
+.logo_nav {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/*   second grid */
+
+
+
+
+
+
+.nav-links {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px 15px;
+
+
+
+}
+
+.links {
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    padding: 7px 17px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.links:hover {
+    color: white;
+    background-color: rgb(110, 29, 29);
+}
